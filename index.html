@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FloraVision - Earth’s Exhale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="logo">FloraVision.</div>
+      </div>
+
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#trendy">Plant's Type</a>
+        <a href="#top-selling">More</a>
+        <a href="#footer">Contact</a>
+      </nav>
+
+      <div class="nav-icons">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" class="icon">
+            <circle cx="11" cy="11" r="6" stroke-width="2" fill="none"></circle>
+            <line x1="15" y1="15" x2="21" y2="21" stroke-width="2"></line>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" class="icon">
+            <path d="M4 4h2l2 12h10l2-8H8" stroke-width="2" fill="none"></path>
+            <circle cx="10" cy="20" r="1.5"></circle>
+            <circle cx="18" cy="20" r="1.5"></circle>
+          </svg>
+        </button>
+        <button class="icon-btn" aria-label="User">
+          <svg viewBox="0 0 24 24" class="icon">
+            <circle cx="12" cy="9" r="3"></circle>
+            <path d="M6 20c1.5-3 3.5-4.5 6-4.5s4.5 1.5 6 4.5" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============== HERO ============== -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="eyebrow"></p>
+          <h1>Earth’s Exhale</h1>
+          <p class="hero-sub">
+            "Earth's Exhale"symbolizes the purity and vitality of the earth's natural environment and its essential role in sustaining life.
+          </p>
+
+          
+          <div class="hero-actions">
+            <button class="btn primary" data-scroll="#top-selling">Buy Now</button>
+            <button class="btn ghost" data-scroll="#trendy">Live Demo</button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-big-plant">
+            <img src="/images/Group 38.png" />
+            <div class="hero-badge">Our Trendy plants</div>
+          </div>
+
+
+
+          <div class="hero-floating-cards">
+            <article class="floating-card small">
+              <div class="plant-info">
+                <h3>Aglaonema plant</h3>
+                <p>Freshen your desk with low-maintenance color.</p>
+              </div>
+              <p class="price">Rs. 200/-</p>
+              <button class="tag-btn" data-scroll="#top-selling">Shop</button>
+            </article>
+
+            <article class="floating-card medium">
+              <div class="plant-info">
+                <h3>For Your Desk Decorations</h3>
+                <p>Perfect for workspaces and compact shelves.</p>
+              </div>
+              <p class="price">Rs. 399/-</p>
+              <button class="tag-btn" data-scroll="#top-selling">Shop</button>
+            </article>
+
+            <article class="floating-card wide">
+              <div class="plant-info">
+                <h3>For Your Desk Decorations</h3>
+                <p>Balanced greenery for modern minimal spaces.</p>
+              </div>
+              <p class="price">Rs. 599/-</p>
+              <button class="tag-btn" data-scroll="#top-selling">Shop</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- ============== OUR TRENDY PLANTS ============== -->
+<section class="section trendy" id="trendy">
+  <div class="trendy-header-row">
+    <button class="btn-prev">Previous</button>
+    <h2 class="trendy-title">Our Trendy plants</h2>
+  </div>
+
+  <div class="trendy-stack">
+
+    <article class="trendy-card">
+      <div class="trendy-img-wrap">
+        <img
+          src="/images/trendy1.png"
+          alt="Trend plant A"
+        />
+      </div>
+
+      <div class="trendy-content">
+        <h3>For Your Desks Decorations</h3>
+        <p class="trendy-desc">
+          I recently added a beautiful desk decoration plant to my workspace,
+          and it has made such a positive difference!
+        </p>
+        <p class="trendy-price">Rs. 599/-</p>
+
+        <div class="trendy-actions">
+          <button class="btn primary small">Explore</button>
+          <button class="glass-icon-btn" aria-label="Lock Icon">
+            <svg class="lock-icon" viewBox="0 0 24 24">
+              <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+              <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="trendy-card reverse">
+      <div class="trendy-img-wrap">
+        <img
+          src="/images/trendy2.png"
+          alt="Trend plant B"
+        />
+      </div>
+
+      <div class="trendy-content">
+        <h3>For Your Desks Decorations</h3>
+        <p class="trendy-desc">
+          The greenery adds a touch of nature and serenity to my desk, making
+          it feel much more calming and fresh.
+        </p>
+        <p class="trendy-price">Rs. 399/-</p>
+
+        <div class="trendy-actions">
+          <button class="btn primary small">Explore</button>
+          <button class="glass-icon-btn" aria-label="Lock Icon">
+            <svg class="lock-icon" viewBox="0 0 24 24">
+              <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+              <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+   
+    <!-- ============== OUR TOP SELLING PLANTS ============== -->
+<section class="section top-selling" id="top-selling">
+  <div class="section-header center top-selling-header">
+    <h2 class="badge-title">
+      <span>Our Top Selling Plants</span>
+    </h2>
+  </div>
+
+  <div class="top-grid">
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="/images/aglaor.png" alt="Aglaonema plant" />
+      </div>
+      <h3>Aglaonema plant</h3>
+      <p class="product-desc">
+        The Aglaonema plant, commonly known as Chinese Evergreen, is an easy-to-care
+        indoor plant and a great air-purifier.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 300/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="/images/plantai.png" alt="Plantain Lilies" />
+      </div>
+      <h3>Plantain Lilies</h3>
+      <p class="product-desc">
+        A favorite for bright indoor corners with rich green foliage and a soft
+        texture.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 380/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="/images/cactus.png" alt="Cactus" />
+      </div>
+      <h3>Cactus</h3>
+      <p class="product-desc">
+        Known for their ability to thrive in arid environments with almost no care.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 259/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="\images\Rose Gold Feminine Calligraphy Monogram Logo(15) 2.png" alt="Swiss cheese Plant" />
+      </div>
+      <h3>Swiss cheese Plant</h3>
+      <p class="product-desc">
+        Statement plant with bold, perforated leaves that stand out in any room.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 400/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="/images/snasevier.png" alt="Sansevieria plant" />
+      </div>
+      <h3>Sansevieria plant</h3>
+      <p class="product-desc">
+        A popular indoor plant for air-purified homes, especially in bedrooms.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 450/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="product-img-wrap">
+        <img src="/images/agave.png" alt="Agave plant" />
+      </div>
+      <h3>Agave plant</h3>
+      <p class="product-desc">
+        A striking plant that adds sculptural form and desert vibes to your decor.
+      </p>
+      <div class="product-footer">
+        <span class="price">Rs. 359/-</span>
+        <button class="product-icon-btn" aria-label="Add">
+          <svg viewBox="0 0 24 24" class="product-icon">
+            <rect x="5" y="10" width="14" height="9" rx="2" ry="2"></rect>
+            <path d="M8 10V8a4 4 0 0 1 8 0v2" fill="none" stroke-width="2"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+    
+<!-- ============== CUSTOMER REVIEW ============== -->
+<section class="section customer-reviews" id="reviews">
+  <div class="section-header center">
+    <h2 class="customer-title">Customer Review </h2>
+  </div>
+
+  <div class="review-card-grid">
+    <div class="review-card">
+      <div class="review-header">
+        <img
+          src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=200"
+          alt="Shelly Russel"
+          class="review-avatar"
+        />
+        <div>
+          <h3 class="review-name">Shelly Russel</h3>
+          <p class="review-role">Plant Enthusiast</p>
+        </div>
+      </div>
+
+      <div class="review-stars">★★★★★ <span>4.9</span></div>
+      <p class="review-text">
+        Just got my hands on some absolutely awesome plants, and I couldn't be
+        happier!
+      </p>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <img
+          src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200"
+          alt="Lula Rolfson"
+          class="review-avatar"
+        />
+        <div>
+          <h3 class="review-name">Lula Rolfson</h3>
+          <p class="review-role">Home Decor Lover</p>
+        </div>
+      </div>
+
+      <div class="review-stars">★★★★★ <span>4.8</span></div>
+      <p class="review-text">
+        Each one has its own unique charm and personality, and they’ve already brightened my space.
+      </p>
+    </div>
+
+    <div class="review-card">
+      <div class="review-header">
+        <img
+          src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200"
+          alt="Carol Huels"
+          class="review-avatar"
+        />
+        <div>
+          <h3 class="review-name">Carol Huels</h3>
+          <p class="review-role">Nature Admirer</p>
+        </div>
+      </div>
+
+      <div class="review-stars">★★★★★ <span>5.0</span></div>
+      <p class="review-text">
+        It’s like bringing a little piece of nature indoors. My plant collection has never looked better!
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ============== BEST O2 PLANTS ============== -->
+<section class="section best-o2" id="best-o2">
+  <div class="section-header center">
+    <h2 class="section-eyebrow">Our Best O2 Plants</h2>
+    
+  </div>
+
+  <div class="o2-card">
+    <div class="o2-image">
+      <img
+        src="/images/besto2.png"alt="Best O2 plant"/>
+    
+    </div>
+
+    <div class="o2-content">
+      <h3>Bring more oxygen into your space.</h3>
+      <p class="o2-text">
+        Our O2 collection is curated with indoor plants that actively help in
+        purifying the air and keeping your room fresh. Perfect for bedside
+        tables, desks, and cozy corners.
+      </p>
+
+      <ul class="o2-list">
+        <li>Selected for strong air-purifying properties.</li>
+        <li>Ideal sizes for rooms, desks and small spaces.</li>
+        <li>Comes with simple care and watering guide.</li>
+      </ul>
+
+      <div class="review-actions">
+        <button class="btn primary" data-scroll="#top-selling">Shop O2 Plants</button>
+        <button class="btn ghost" data-scroll="#footer">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">FloraVision.</div>
+        <p>
+          "From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment." 
+        </p>
+        <div class="social-row">
+          <button class="social-btn">Fb</button>
+          <button class="social-btn">Ig</button>
+          <button class="social-btn">Tw</button>
+        </div>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#hero">Home</a>
+          <a href="#trendy">Type's of plants </a>
+          <a href="#top-selling">Contatcs</a>
+          <a href="#reviews">Privacy</a>
+        </div>
+        <div class="footer-col">
+          <h4>Plant Labels</h4>
+          <a href="#">Low maintenance</a>
+          <a href="#">For desk</a>
+          <a href="#">For living room</a>
+          <a href="#">Pet friendly</a>
+        </div>
+        <div class="footer-col">
+          <h4>For Every Update.</h4>
+          <form id="newsletterForm" class="newsletter">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email" required />
+            <button type="submit" class="btn tiny">Submit</button>
+          </form>
+          <p class="newsletter-msg" id="newsletterMsg"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 FloraVision. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
